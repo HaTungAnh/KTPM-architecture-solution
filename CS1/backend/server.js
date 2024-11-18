@@ -1,7 +1,7 @@
 const express = require('express')
-const lib = require('./utils')
+const lib = require('./utils/utils')
 const app = express()
-const port = 3001
+const port = 4000
 
 app.get('/short/:id', async (req, res) => {
     try {
